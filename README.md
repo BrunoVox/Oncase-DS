@@ -1,3 +1,25 @@
+## Dependências
+
+- Numpy, Pandas, Matplotlib:
+
+      python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+- Seaborn
+
+      conda install seaborn
+
+- nltk (também é necessário baixar arquivos externos da lib: [link](https://www.nltk.org/data.html))
+
+      pip install --user -U nltk
+
+- sklearn
+
+      conda install scikit-learn
+      
+## Detalhes
+
+O código roda em pouco menos de 16 minutos num i5 6ª geração. É possível rodar em cerca de 7 minutos baixando os arquivos neste link: [arquivos](https://drive.google.com/open?id=1iRykqoxNIndUFtjIphqAFf8yzrGb8XAe). Basta extrair os arquivos para o root do projeto.
+
 ## Overview
 
 A Oncase está contratando Data Scientists em diversos níveis de experiência para atuar nos projetos onde construimos, junto com nossos clientes, produtos analíticos.
@@ -33,7 +55,7 @@ Conta ponto também:
 ## Exercício
 
 > Arquivo: receitas.json - Sample ao final
-
+   
 1. A categorias pertencem as comidas mais calóricas?
 2. Quais os top 10 ingredientes contidos nas receitas mais calóricas?
 3. Se você tivesse que recomendar 3 receitas baseando-se nos dados, quais seriam?
